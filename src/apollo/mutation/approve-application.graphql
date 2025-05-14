@@ -1,0 +1,30 @@
+mutation approveApplication($id: ID!) {
+  approveApplication(id: $id) {
+    applicant {
+      about
+      email
+      firstName
+      id
+      image
+      lastName
+      organizationName
+    }
+    content
+    id
+    links {
+      title
+      url
+    }
+    metadata
+    milestones {
+      currency
+      description
+      id
+      price
+      status
+      title
+    }
+    name
+    status
+  }
+}

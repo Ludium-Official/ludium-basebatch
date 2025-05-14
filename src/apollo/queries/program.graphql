@@ -1,0 +1,87 @@
+query program($id: ID!) {
+  program(id: $id) {
+    applications {
+      applicant {
+        about
+        email
+        firstName
+        id
+        image
+        lastName
+        links {
+          title
+          url
+        }
+        organizationName
+      }
+      content
+      id
+      metadata
+      milestones {
+        currency
+        description
+        id
+        price
+        status
+        title
+      }
+      status
+    }
+    creator {
+      about
+      email
+      firstName
+      id
+      image
+      lastName
+      organizationName
+
+      wallet {
+        address
+        network
+        walletId
+      }
+      links {
+        title
+        url
+      }
+    }
+    currency
+    deadline
+    description
+    educhainProgramId
+    keywords {
+      id
+      name
+    }
+    links {
+      title
+      url
+    }
+    id
+    name
+    price
+    status
+    summary
+    validator {
+      about
+      email
+      firstName
+      id
+      image
+      lastName
+      organizationName
+
+      wallet {
+        address
+        network
+        walletId
+      }
+
+      links {
+        title
+        url
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+mutation publishProgram($id: ID!, $educhainProgramId: Int!, $txHash: String!) {
+  publishProgram(id: $id, educhainProgramId: $educhainProgramId, txHash: $txHash) {
+    creator {
+      about
+      email
+      firstName
+      id
+      image
+      lastName
+      organizationName
+    }
+    currency
+    deadline
+    description
+    id
+    name
+    price
+    status
+    summary
+    validator {
+      about
+      email
+      firstName
+      id
+      image
+      lastName
+      organizationName
+    }
+  }
+}

@@ -1,0 +1,21 @@
+query profile {
+  profile {
+    about
+    email
+    firstName
+    id
+    image
+    lastName
+    links {
+      title
+      url
+    }
+    organizationName
+
+    wallet {
+      address
+      network
+      walletId
+    }
+  }
+}
