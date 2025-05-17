@@ -21,7 +21,7 @@ To solve these problems, Ludium proposes an onchain-based talent matching platfo
 
 This system is **optimized for project-based collaboration** and replaces trust with a **dual mechanism: contract terms + validator reputation**. It enables fair and transparent participation, with each contributor’s performance permanently recorded onchain for future opportunities.
 
-## 💙 Ludium is BAsed - Stack Integration
+## 💙 Ludium is BASED - Stack Integration
 ![Base Stacks](./images/Basebatch-BaseStacks.png)
 
 Base provides **fast transaction speeds, low fees, and developer-friendly infrastructure** — ideal for real-world Web3 platforms.
@@ -61,8 +61,7 @@ TAMP is built on three pillars:
 
 TAMP is ideally suited for the fast-growing Web3 use cases like DAOs, contributor-driven hackathons, and decentralized research networks. Ludium’s aim is to establish TAMP as the **standard for turning task-based labor into digital assets**.
 
-## 🔮 Roadmap - Future is Based
-
+## 🔮 Roadmap - Future is BASED
 ![Future is Based](./images/Basebatch-Future-Based.png)
 
 Ludium is prepared to grow alongside the evolving Base ecosystem. Among Base’s many technical infrastructures, the following three are key to Ludium’s strategic future:
