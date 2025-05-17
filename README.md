@@ -76,7 +76,7 @@ Ultimately, Ludium is not just a hiring platform — it is building a **"contrib
 
 - [**Base Batch - Project Demo Video**](https://youtu.be/zoKU4cswnQg)
 - [**Base Batch - Portal Page Link**](https://ludium-basebatch.vercel.app/)
-- [**Base Batch - Framer Source Code**](https://github.com/Ludium-Official/ludium-farcaster)
+- [**Base Batch - Fracaster Frame Source Code**](https://github.com/Ludium-Official/ludium-farcaster)
 - [**Base Batch - Escrow Contract Address**](https://base-sepolia.blockscout.com/address/0xAe740E9D85d0D177DFbeC0666E65Eb721087c5bc?tab=index)
 - [**Ludium Portal - Live Website**](https://www.ludium.world/)
 - [**Ludium Portal - Github Source Code Archive**](https://github.com/Ludium-Official/ludium-portal)
