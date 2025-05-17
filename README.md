@@ -1,67 +1,83 @@
-# Ludium: WEB3 TALENT PLATFORM
+# 🏛️ Ludium: Onchain Freelancer Platform
 
-## Overview
-![overview](./images/Ludium-1.png)
-The digital native world opens new doors for the great opportunity for talents. For one, it is **geographically agnostic**. Two, it allows **asynchronous** project management. And finally, it promotes **pluralistic contribution**. However, we are still bounded to work in a place at the designated time for one organization.
+## 🌍 Overview
+![overview](./images/Basebatch-Cover.png)
+The digital native world opens new doors for the great opportunity for freelancers. For one, it is **geographically agnostic**. Two, it allows **asynchronous** project management. And finally, it promotes **pluralistic contribution**. We imagine a world where we are free to **work from anywhere at anytime with anyone** and **enjoy the highest compensation** based on contributions.
 
-Ludium believes that the new world begs for a new system. For this, we develop a system that is **accessible, collaborative and trustless** for the liberty of the builders.
+To enter the new world, we demand a new system. The system that allows **faster, cheaper, and more reliable** freelancers to congregate. We believe that the system must incorporate the **liquidity of builder capital based on task performances**. For this, we develop **accessible, collaborative and trustless** freelancer platform for the liberty of the builders.
 
-## Problem
-![Problem](./images/Ludium-2.png)
+## ❗ Problem - No Country For Freelancers
+![Problem](./images/Basebatch-Problem.png)
+The traditional talent-matching system is centralized. In such systems, **it’s difficult to fully reflect what skills someone has or what projects they’ve contributed to**, with resumes and interviews being the main — and often limited — tools for assessment. This information remains fragmented across isolated data silos.
 
-## Solution - Talent Matching Platform
-![Portal](./images/Ludium%20-%20Web3%20Talent%20Platform_BASEBATCH.pptx.png)
+This structure is particularly inadequate for Web3, where **decentralized communities and autonomous contributions are the norm**. Additionally, freelancers and project-based agents currently lack clear standards for establishing trust and maintaining long-term collaboration. While anyone can apply to contribute to a project, **there’s no standardized framework for identifying who is trustworthy, how contributions should be evaluated, or how rewards should be distributed**. As a result, we often see contributors not getting paid or requesters disappearing without results. **An automated system of trust and settlement is urgently needed.**
 
-Ludium provides a talent matching platform for builders to 
+## ✅ Solution - Trustless Talent Matching Platform
+![Portal](./images/Basebatch-Platform.png)
+To solve these problems, Ludium proposes an onchain-based talent matching platform. Builders can **create a profile based on their skills and experience**, and **build trust through verifiable onchain credentials**, such as past project settlements or milestone completions. These profiles go beyond resumes — they are **performance-based assets tied to individual projects**.
 
-- **Manage Profiles**: Share social, professional, and project acheivement to prove the builder's status
-- **Join Programs**: Apply for programs that provide builder opportunity and receive payment based on the success of milestones
-- **Join Community**: Post information and join projects to form a new team 
+![Contract](./images/Basebatch-Contract.png)
+**Sponsors** can create programs by depositing budgets into escrow and setting conditions (e.g., minimum voucher amounts, validator staking, etc.). **Builders** apply and **submit milestones upon task completion**. **Validators** review and approve the work. The entire flow is automated via smart contracts — **when deliverables are submitted and approved, payments are released automatically; if tasks fail, penalties and slashing mechanisms refund part of the deposit to the sponsor**.
 
-![Contract](./images/Ludium%20-%20Web3%20Talent%20Platform_BASEBATCH.pptx%20(1).png)
+This system is **optimized for project-based collaboration** and replaces trust with a **dual mechanism: contract terms + validator reputation**. It enables fair and transparent participation, with each contributor’s performance permanently recorded onchain for future opportunities.
 
-Under the hood, program triggers onchain escrow contract that
-- **Takes Deposit**: Sponsors deposit the amount to be distributed to the builders 
-- **Aceept Milestones**: Builders submit milestone to prove the completion of work
-- **Settle Payment** Deposited amount is paid to the builders based on the agreed milestones
+## 💙 Ludium is BAsed - Stack Integration
+![Base Stacks](./images/Basebatch-BaseStacks.png)
 
-## Ludium is BASED
-![Base Stacks](./images/Ludium%20-%20Web3%20Talent%20Platform_BASEBATCH.pptx%20(2).png)
+Base provides **fast transaction speeds, low fees, and developer-friendly infrastructure** — ideal for real-world Web3 platforms.
 
-For Base Bathch, Ludium integrated four different technical stacks from Base Ecosystem:
+- **Escrow Smart Contracts**: Built on Solidity and deployed on **Base Sepolia Testnet**, program budgets are securely held in escrow. For example, if a sponsor deposits 100 USDC and a builder completes a milestone, the funds are released automatically. If the task fails, slashing mechanisms return part of the funds to the sponsor.
+- **Onchain Kit (by Coinbase)**: Users can onboard using **social login and KYC** features provided by Coinbase Onchain Kit. It makes it easier for anyone to set up a new account and start using the platform.
+- **Paymaster Functionality**: The biggest barrier for new users is gas fees. Ludium lowers that barrier by **covering gas fees** for sponsors and validators through Paymaster integration.
+- **Farcaster Integration (Warpcast Frame)**: Programs can be shared on the Farcaster network through an **embedded Frame button**. This enables organic spread within niche Web3 communities like bounty casters.
 
-- **Why Base?**
-    - Technical Onboarding: Coinbase Developer Platform(CDP) and other eocsystem projects offer quality SDKs/APIs that enhance convenience and reach out
-    - Social / User on Base: Base Network is full of users onchain especially on farcaster that fits the builder / sponsor 
-- **Technical Stacks Used**
-    - Escrow Contract: Deployed escrow contract in Solidity to BASE Sepolia Testnet. Anyone can deposit amount in $ETH / $USDT / $USDC on BASE to launch a program
-    - Onchain Kit: Utilized Coinbase Onchain Kit for social login / KYC. It increase the ease of onboarding especially for the new builders
-    - Paymaster: Used paymaster to delegate fees to set up programs. It lowers the barrier of entrance to set up programs 
-    - Farcaster: Included a button to post frame on Warpcast to share programs. It will increase the expsoure and to related crowd on Base Network such as [bountey caster](https://www.bountycaster.xyz/)   
+Base isn’t just a technical choice — **it’s the foundation for a frictionless and equitable Web3 talent marketplace** where anyone can easily participate and be fairly rewarded.
 
-## Market Adoption - Statistics Highlights
-![Statistics](./images/Ludium%20-%20Web3%20Talent%20Platform_BASEBATCH.pptx%20(3).png)
-During the first Quater of 2025, Ludium witnessed a significant growth in
-- **Number of Users**: We launched a new builder community letter with significant grwoth in subscribers
-- **Number of Spnosors**: Sponsors joined hackathons, incuation, and other programs
-- **Revenue / Profit**: Ludium takes 30% on average out of the sponsored amount
+## 📊 Market Adoption - 2025 Highlight
+![Statistics](./images/Basebatch-2025-Stats.png)
+Ludium has seen significant growth in Q1 2025.
 
-![Projection](./images/Ludium%20-%20Web3%20Talent%20Platform_BASEBATCH.pptx%20(4).png)
+- **User Growth**: Newsletter subscribers have rapidly increased, and the weekly letter sharing open positions and collaborative projects has become a key gateway for builders.
+- **Sponsor Acquisition**: More institutions are setting up programs through Ludium, including hackathons, incubation programs, and research bounties — not just Web3 foundations but also startups and enterprises running pilot programs.
+- **Revenue Growth**: Ludium charges an average 30% operational fee based on escrow settlements. This is more sustainable than one-off fees since it is tied to actual performance. Some programs have already processed funds in the millions of KRW per engagement.
 
-Before the end of the year, we expect
-- **Number of Users**: All users to onboard to the platform and activities are counted onchain
-- **Number of Sponsors**: Not only Web3 Foundations but also other corporations and organizations to join in
-- **Revenue / Profit**: Significant growth in revenue as largers deals are under discussion
+## 📈 Projection - 2025 Outlook
+![Projection](./images/Basebatch-2025-Projection.png)
 
-## Roadmap - Trustless Agent Matching Protocol
-![Autonomous Protocol](./images/Ludium%20-%20Web3%20Talent%20Platform_BASEBATCH.pptx%20(5).png)
+- By the end of 2025, Ludium is focused on **enhancing visibility of performance through automated onchain activity and user conversion**. Contribution history, settlement outcomes, and feedback are all recorded onchain, turning in-platform activity into real career value.
+- On the sponsor side, there’s a shift from short-term tasks to **long-term contracts** (e.g., quarterly talent matching, recurring partner programs). Current discussions include global NGOs, public sector collaborations, and venture funds — with budgets potentially reaching tens of millions of KRW per program.
+- Overall, 2025 is expected to be the year when **“performance-based liquidity” built on “technology-based trust” truly activates** — and Ludium aims to be a central player in that transformation.
+  
+## 🛣️ Roadmap - TAMP (Trustless Agent Matching Protocol)
+![TAMP](./images/Basebatch-TAMP.png)
 
-Ludium believe that the digitalized talent sourcing will gradually substitute the conventional HR industry. For this, we believe that 1) **Adoption of the Agents** 2) **Verifiable Onchain Credentials** 3) **Trustless Contribution Settlement** are the keys to scalable protocol. To that end, we bring TAMP(Trustless Agent Matching Protocol) that is both automated and decentrzlied way of finding the right agent 
+To expand into a full-scale Web3 HR infrastructure, Ludium is developing **TAMP (Trustless Agent Matching Protocol)** — a protocol that enables automated matching and settlements based on onchain identity and performance.
 
-![Future is Based](./images/Ludium%20-%20Web3%20Talent%20Platform_BASEBATCH.pptx%20(6).png)
+TAMP is built on three pillars:
 
-As we move toward more agentic future, Ludium plans to adopt following stacks from CDP
+- **Agent Workstation**: Builders, validators, and sponsors can be either humans or AI with various roles and skills. Each agent takes on tasks and submits results.
+- **Verifiable Onchain Credentials (VOC)**: Unlike traditional resumes, credentials are based on actual project contributions and onchain settlement results.
+- **Trustless Settlement**: Smart contracts distribute rewards based on contribution and validation. Penalties and slashing apply for failed tasks.
 
-- Base Onramp: For the ease of payment, Fiat Onramp is crucial. Base On Ramp offers smooth payment experience. Once Ludium is deployed on Base Mainnet, it is possible to adopt the stack
-- Talent Protocol: For onchain credential on builder profiles, Ludium need to analyze various sources of skill data. Talent protocol provides builder score that can serve as a source of reference  
-- AgentKit: Agentic future requires coordination and orchestration of multiple agents each performing it's task both onchain and offchain. For this, Coinbase Onchain Kit can be a go to resource for the Based Future
+TAMP is ideally suited for the fast-growing Web3 use cases like DAOs, contributor-driven hackathons, and decentralized research networks. Ludium’s aim is to establish TAMP as the **standard for turning task-based labor into digital assets**.
+
+## 🔮 Roadmap - Future is Based
+
+![Future is Based](./images/Basebatch-Future-Based.png)
+
+Ludium is prepared to grow alongside the evolving Base ecosystem. Among Base’s many technical infrastructures, the following three are key to Ludium’s strategic future:
+
+1. **Base Onramp**: Fiat-to-crypto onramps simplify onboarding for non-Web3 users — especially enterprise sponsors — who can participate without handling crypto directly.
+2. **Talent Protocol**: Ludium plans to introduce onchain reputation scores (Talent Score) to builder profiles. By integrating Talent Protocol APIs, we can visualize and automate performance indicators, allowing builders to prove their value through "project-based assets."
+3. **AgentKit**: To manage the distributed nature of agents (on/off-chain), Ludium will adopt Coinbase's AgentKit, enabling automated coordination between builders, validators, and sponsors while optimizing complex workflows via code.
+
+Ultimately, Ludium is not just a hiring platform — it is building a **"contribution-based trust ecosystem"** where every agent in Web3 can monetize their skills and earn fair compensation. **And at the center of that vision is Base.**
+
+## 📚 References
+
+- [**Base Batch - Project Demo Video**](https://youtu.be/zoKU4cswnQg)
+- [**Base Batch - Framer Source Code**](https://github.com/Ludium-Official/ludium-farcaster)
+- [**Base Batch - Escrow Contract Address**](https://base-sepolia.blockscout.com/address/0xAe740E9D85d0D177DFbeC0666E65Eb721087c5bc?tab=index)
+- [**Ludium Portal - Live Website**](https://www.ludium.world/)
+- [**Ludium Portal - Github Source Code Archive**](https://github.com/Ludium-Official/ludium-portal)
+- [**Ludium Portal - Escrow Contract Source Code**](https://github.com/Ludium-Official/ludium-portal-contract)
